@@ -17,15 +17,20 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/product")
-public class ProdectController {
+public class ProductController {
+
     @Autowired
-    private IProductService iProductService;
+    private IProductService productService;
+
+    //查询全部产品
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
-        List<Product>  ps = iProductService.findAll();
-        mv.addObject("productlist",ps);
+        List<Product> ps = productService.findAll();
+        mv.addObject("productList", ps);
         mv.setViewName("product-list");
         return mv;
+
     }
 }
+
