@@ -226,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568633209105</updated>
       <workItem from="1568633211823" duration="6409000" />
-      <workItem from="1568695621402" duration="766000" />
+      <workItem from="1568695621402" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="提交到本地仓库">
       <created>1568641146874</created>
@@ -246,10 +246,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7175000" />
+    <option name="totallyTimeSpent" value="7430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
